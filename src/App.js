@@ -1,11 +1,11 @@
 import Header from './components/Navigation/Header'
-import Cards from './components/Cards/Cards'
+import Decks from './components/Decks/Decks'
 
 function App() {
   return (
     <div>
       <Header />
-      <Cards />
+      <Decks />
     </div>
   );
 }
