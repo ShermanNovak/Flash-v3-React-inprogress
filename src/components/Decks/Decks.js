@@ -43,8 +43,6 @@ const DUMMY_DECKS = [
 const Decks = () => {
     return (
       <div className={classes.deckpage}>
-        <h1>All Decks</h1>
-        <ul>
           {DUMMY_DECKS.map((eachdeck) => (
             <EachDeck
               key={eachdeck.id}
@@ -52,7 +50,6 @@ const Decks = () => {
               lastseen={eachdeck.last_seen}
             />
           ))}
-        </ul>
       </div>
     );
   };
